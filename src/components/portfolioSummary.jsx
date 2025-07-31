@@ -1,6 +1,6 @@
 import { formatCurrency, formatPercentage } from '../utils/formatters'; // Import formatting utilities
 
-function PortfolioOverview({ totalPortfolioValue, totalInvestmentCost, overallProfitLoss, overallProfitLossPercentage, cashBalance}) {
+function PortfolioOverview({ totalPortfolioValue, overallProfitLoss, overallProfitLossPercentage, cashBalance}) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
       <div className="bg-gradient-to-br from-blue-500 to-blue-700 text-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center">
