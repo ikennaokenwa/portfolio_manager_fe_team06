@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PortfolioOverview from '../components/PortfolioOverview';
 import HoldingsTable from '../components/HoldingsTable';
 import AddHoldingForm from '../components/AddHoldingForm';
+import PortfolioChart from '../components/PortfolioChart';
 
 
 function Dashboard() {
@@ -205,9 +206,10 @@ function Dashboard() {
                         This section would typically feature interactive charts (e.g., line charts for portfolio value over time, pie charts for asset allocation).
                         You could integrate libraries like Recharts or Chart.js here.
                     </p>
-                    <div className="mt-4 h-48 bg-gray-200 rounded-md flex items-center justify-center text-gray-500 text-lg">
-                        Chart Placeholder
-                    </div>
+                    {/* <div className="mt-4 h-48 bg-gray-200 rounded-md flex items-center justify-center text-gray-500 text-lg">
+                        Chart Placeholder */}
+                        <PortfolioChart />
+                    {/* </div> */}
                 </div>
             </div>
         </div>
