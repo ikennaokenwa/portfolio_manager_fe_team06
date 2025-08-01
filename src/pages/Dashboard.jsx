@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import PortfolioOverview from '../components/portfolioSummary';
-import HoldingsTable from '../components/holdingsTable';
-import AddHoldingForm from '../components/buySell';
+import PortfolioOverview from '../components/PortfolioOverview';
+import HoldingsTable from '../components/HoldingsTable';
+import AddHoldingForm from '../components/AddHoldingForm';
 
 
 function Dashboard() {
